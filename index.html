@@ -2,187 +2,186 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Верстка «skillbox-html»</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «skillbox-html»</title>
 </head>
 
 <body>
-  <div class="rootpage">
-    <h1>Тестовое задание «skillbox-html»</h1>
-    <div class="rootpage__main">
-      <div class="rootpage__ready">
-        <h2>Готовые страницы:</h2>
-        <ol class="rootpage__list">
-          <li><a target="_blank" href="home.html">Верстка макета Евклид</a></li>
-          <li><a target="_blank" href="game.html">Игра на Java Script</a></li>
-        </ol>
-      </div>
-      <div class="rootpage__contacts">
-        <h2>Мои контакты:</h2>
-        <p>Почта: <a href="mailto:petrov3.14@mail.ru">petrov3.14@mail.ru</a></p>
-        <p>Телефон: <a href="tel:89257977029">8 925 797 7029</a></p>
-        <p>Telegram: <a href="tg://resolve?domain=<@DmitrPetrov>">@DmitryPetrov</a></p>
-        <p>Whatsapp: <a href="https://api.whatsapp.com/send?phone=<89257977029>">DmitryPetrov</a></p>
-      </div>
-    </div>
-  </div>
+	<div class="rootpage">
+		<h1>Тестовое задание «skillbox-html»</h1>
+		<div class="rootpage__main">
+			<div class="rootpage__ready">
+				<h2>Готовые страницы:</h2>
+				<ol class="rootpage__list">
+					<li><a target="_blank" href="home.html">Верстка макета Евклид</a></li>
+					<li><a target="_blank" href="game.html">Игра на Java Script</a></li>
+				</ol>
+			</div>
+			<div class="rootpage__contacts">
+				<h2>Мои контакты:</h2>
+				<p>Почта: <a href="mailto:petrov3.14@mail.ru">petrov3.14@mail.ru</a></p>
+				<p>Телефон: <a href="tel:89257977029">8 925 797 7029</a></p>
+				<p>Telegram: <a href="tg://resolve?domain=<@DmitrPetrov>">@DmitryPetrov</a></p>
+				<p>Whatsapp: <a href="https://api.whatsapp.com/send?phone=<89257977029>">DmitryPetrov</a></p>
+			</div>
+		</div>
+	</div>
 </body>
 <style>
-  @charset "UTF-8";
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
 
-  *,
-  *::before,
-  *::after {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    box-sizing: border-box;
-  }
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
 
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    min-width: 320px;
-    width: 100%;
-    color: #fff;
-    background-color: #5ec4b6;
-    font-size: 24px;
-  }
+	html,
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		font-size: 24px;
+		color: #fff;
+		background-color: #5ec4b6;
+	}
 
-  body {
-    font-family: Montserrat;
-    font-size: 100%;
-    line-height: 1;
-    font-size: 1rem;
-  }
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
 
-  a {
-    text-decoration: underline;
-    color: #ebe691
-  }
+	a {
+		text-decoration: underline;
+		color: #ebe691
+	}
 
-  a:visited {
-    text-decoration: underline;
-    color: #fdf32d;
-  }
+	a:visited {
+		text-decoration: underline;
+		color: #fdf32d;
+	}
 
-  a:hover {
-    text-decoration: none;
-  }
+	a:hover {
+		text-decoration: none;
+	}
 
-  ul li {
-    list-style: none;
-  }
+	ul li {
+		list-style: none;
+	}
 
-  img {
-    vertical-align: top;
-  }
+	img {
+		vertical-align: top;
+	}
 
-  .wrapper {
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-  }
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
 
-  .rootpage {
-    padding: 30px;
-    align-items: flex-start;
-  }
+	.rootpage {
+		padding: 30px;
+		align-items: flex-start;
+	}
 
-  @media (max-width: 767px) {
-    .rootpage {
-      padding: 30px 15px;
-    }
-  }
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
 
-  .rootpage__main {
-    display: flex;
-    justify-content: space-between;
+	.rootpage__main {
+		display: flex;
+		justify-content: space-between;
 
+	}
 
-  }
+	@media (max-width: 768px) {
+		.rootpage__main {
+			flex-direction: column;
+		}
+	}
 
-   @media (max-width: 768px) {
-    .rootpage__main {
-      flex-direction: column;
-    }
-  }
+	h1 {
+		flex: 1 1 100%;
+		color: #ebe691;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
 
-  h1 {
-    flex: 1 1 100%;
-    color: #ebe691;
-    font-size: 2.5rem;
-    margin: 0px 0px 1.25rem 0px;
-  }
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
 
-  @media (max-width: 767px) {
-    h1 {
-      font-size: 1.85rem;
-      margin: 0px 0px 1.25rem 0px;
-    }
-  }
+	h2 {
+		color: #ebe691;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
 
-  h2 {
-    color: #ebe691;
-    font-size: 1.25rem;
-    margin: 0px 0px 1rem 0px;
-  }
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
 
-  @media (max-width: 767px) {
-    h2 {
-      font-size: 1.125rem;
-      margin: 0px 0px 1rem 0px;
-    }
-  }
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
 
-  .rootpage__info {
-    line-height: 140%;
-    margin: 0px 0px 1.5rem 0px;
-  }
+	.rootpage__list {
+		flex: 0 1 50%;
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
 
-  .rootpage__list {
-    flex: 0 1 50%;
-    margin: 0px 0px 2.25rem 1.25rem;
-  }
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
 
-  .rootpage__list li:not(:last-child) {
-    margin: 0px 0px 15px 0px;
-  }
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 20px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
 
-  .rootpage__contacts,
-  .rootpage__tnx {
-    border-radius: 20px;
-    padding: 20px 65px;
-    line-height: 140%;
-  }
+	@media (max-width: 767px) {
 
-  @media (max-width: 767px) {
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
 
-    .rootpage__contacts,
-    .rootpage__tnx {
-      border-radius: 40px;
-      padding: 20px;
-    }
-  }
+	.rootpage__contacts {
+		flex: 0 1 50%;
 
-  .rootpage__contacts {
-    flex: 0 1 50%;
+		background: #9d63c4;
 
-    background: #9d63c4;
+	}
 
-  }
-
-  .rootpage__contacts a {
-    color: #ebe691;
-  }
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
 </style>
 
 </html>
